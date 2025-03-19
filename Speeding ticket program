@@ -3,11 +3,8 @@ int_user_money = int(input("Enter how much money you want to have. (after this, 
 max_speed = 51
 int_user_speed = int(input("Do you know how fast you were going?"))
 
-# Test line
-print(int_user_speed)
-
-# 
+# The main program
 if int_user_speed < max_speed:
   print("Sorry for wasting your time.")
-elif int_user_speed > max_speed:
-  print("Thats over the speed limit, im going to have to fine $30 you for that")
+else:
+    print("Thats over the speed limit, im going to have to fine $30 you for that.\nAfter paying the ticket, you now have ${}".format(int_user_money - 30))
