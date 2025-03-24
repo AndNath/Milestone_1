@@ -1,8 +1,8 @@
 # Variables
 
-int_userMoney = int(input("Enter how much money you want to have. (after this, program will start)"))
+int_userMoney = int(input("Enter how much money you want to have. (after this, program will start) "))
 max_speed = 50
-int_userSpeed = int(input("Your driving down the road, when you get pulled over. \n A cop walks up to the window and says,\n \"Do you know how fast you were going?\""))
+int_userSpeed = int(input("Your driving down the road, when you get pulled over. \n A cop walks up to the window and says,\n \"Do you know how fast you were going?\" "))
 
 # The main program (Checks to see if your over the speed limit)
 
